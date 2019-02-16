@@ -109,10 +109,3 @@ goto :checkMiner
 :continue		
 goto :start
 pause
-
-
-
-https://stedolan.github.io/jq/download/
-https://curl.haxx.se/windows/
-
-https://stackoverflow.com/questions/6359820/how-to-set-commands-output-as-a-variable-in-a-batch-file
