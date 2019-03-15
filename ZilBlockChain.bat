@@ -40,22 +40,22 @@ echo ------------- Zilliqa API info -------------
 echo Current DSEpoch: %MYDS%
 echo Current TxBlock: %MYTX%
 echo .    
-if %MY% GEQ %StartBlock% (
-	echo Mining ZIL is runing %MY% ^>^= %StartBlock%
+if %MY% GTR %StartBlock% (
+	echo Mining ZIL is runing %MY% ^> %StartBlock%
 	echo Rechecking Zilliqa API, timeout %TimeOutSec% sec...
 	timeout /t %TimeOutSec% >nul
 	goto :StartPowZill
 )
 
-if %MY% LSS %StartBlock% (
-	if %MY% GTR %EndBlock% (
-		echo Mining ZIL is stoping %EndBlock% ^< %MY% ^< %StartBlock%
+if %MY% LEQ %StartBlock% (
+	if %MY% GEQ %EndBlock% (
+		echo Mining ZIL is stoping %EndBlock% ^< %MY% ^<^= %StartBlock%
 		echo Rechecking Zilliqa API, timeout %TimeOutSec% sec...
 		timeout /t %TimeOutSec% >nul
 		goto :StopPowZill
 	)
-	if %MY% LEQ %EndBlock% (
-		echo Mining ZIL is runing %MY% ^<^= %EndBlock%
+	if %MY% LSS %EndBlock% (
+		echo Mining ZIL is runing %MY% ^< %EndBlock%
 		echo Rechecking Zilliqa API, timeout %TimeOutSec% sec...
 		timeout /t %TimeOutSec% >nul
 		goto :StartPowZill
