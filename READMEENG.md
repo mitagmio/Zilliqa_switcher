@@ -6,7 +6,7 @@ The script uses two utilities for its work cURL and JQ \
 <https://curl.haxx.se/windows/>
 
 A brief description of the script:
-1) on the 98 block, the main mining will stop and the miner of the Zilika will start (the block number is selected with a margin, you can change the settings for yourself) 
+1) on the 99 block, the main mining will stop and the miner of the Zilika will start (the block number is selected with a margin, you can change the settings for yourself) 
 2) at the end of mining on block 01, the miner of zilika closes (the block number is selected with a margin, you can change the settings for yourself) 
 3) the main miner opens
 4) the script continues to work in the background by accessing the zilliqa API by checking the block number every 20 seconds (20 seconds only because the new TX block does not appear exactly every minute)
