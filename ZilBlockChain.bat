@@ -33,7 +33,13 @@ del tmpFile
 echo %myvar% | jq --raw-output .result.CurrentDSEpoch > tmpFile
 set /p MYDS= < tmpFile
 del tmpFile
+if %MYTX% LSS 44901 (
+  set "MY=01"
+  goto :FIX
+)
 set "MY=%MYTX:~-2%"
+
+:FIX
 
 cls
 echo ------------- Zilliqa API info -------------
