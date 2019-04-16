@@ -30,21 +30,20 @@ SET StartFileMiner =% windir% \ system32 \ calc.exe # Path to the main miner's s
 SET StartFileZillMiner =% windir% \ system32 \ notepad.exe # Path to the ZillMiner launch file (Calculator specified for the test)
 
 # In the plans:
-1) Implementation on Ubuntu and HIVE OS 
-2) It is possible to expand the Zilliqa switcher with software WatchDog to track the workload of the maps and check the availability of the Internet. 
+1) It is possible to expand the Zilliqa switcher with software WatchDog to track the workload of the maps and check the availability of the Internet. 
 (There are developments both in red and in green under win 7 \ 10) 
 and many more interesting ideas may arise from you.
 
-Discussion: <https://mininghub.cc/resources/32/>
+Discussion: <https://mininghub.cc/threads/298/>
 
 -------------------------------------------------- ------------ 
-Interested please contact the telegram [@mitagmio] (https://mininghub.cc/members/1889/) 
-Donat:
-BTC: 12yDg5uYrcHqN2HoeVp1tR1eanXAJxHsDb 
-LTC: LhAxQLTHacm8WoWQ9mHSZmfbqFGCphHqgg 
-ETH: 0xb48f60b5e69bcbd95b00b5bd2dd76d8eec524894 
-ETC: 0xb48f60b5e69bcbd95b00b5bd2dd76d8eec524894 
+Interested please contact the telegram [@mitagmio] (https://mininghub.cc/members/1889/)\
+Donat:\
+BTC: 12yDg5uYrcHqN2HoeVp1tR1eanXAJxHsDb\
+LTC: LhAxQLTHacm8WoWQ9mHSZmfbqFGCphHqgg\
+ETH: 0xb48f60b5e69bcbd95b00b5bd2dd76d8eec524894\
+ETC: 0xb48f60b5e69bcbd95b00b5bd2dd76d8eec524894\
 CALLISTO: 0x66aefd45d0d7da104dd140f0bd7917967a122a3b
-
-QIWI: 79155009589 
+\
+QIWI: 79155009589\
 Sberbank: 79155009589
